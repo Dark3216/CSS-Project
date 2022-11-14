@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="rupees">
+        <table cellspacing="10px" style="border: 1px solid">
+          <tr>
+            <th>Amount</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+            <th>Quantity</th>
+          </tr>
+          <tr>
+            <td>5000</td>
+            <td id="fiveThousands">-</td>
+            <td>20</td>
+            <td id="twenty">-</td>
+          </tr>
+          <tr>
+            <td>1000</td>
+            <td id="thousand">-</td>
+            <td>10</td>
+            <td id="ten">-</td>
+          </tr>
+          <tr>
+            <td>500</td>
+            <td id="fiveHundred">-</td>
+            <td>5</td>
+            <td id="five">-</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td id="hundred">-</td>
+            <td>2</td>
+            <td id="two">-</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td id="fifty">-</td>
+            <td>1</td>
+            <td id="one">-</td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              <input type="button" value="Enter Currency" onclick="amount()" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="total">
+        Total Amount:
+        <span id="totalAmount"></span>
+      </h3>
+      <h3 class="total">
+        Amount Deducted:
+        <span id="AmountEnter"></span>
+      </h3>
+      <h3 class="total">
+        Balance:
+        <span id="Balance"></span>
+      </h3>
+      <p class="btn btn-1">
+        <input type="button" value="Enter Amount" onclick="enterAmount()" />
+      </p>
+      <p class="btn btn-2">
+        <input type="button" value="Generate Slip" onclick="generateSlip()" />
+      </p>
+      <p id="zero" class="zeros"></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  background: #cae7df;
+}
+
+.zeros {
+  font-size: 20px;
+  width: 30%;
+  border: 1px solid;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 220px;
+}
+table tr td {
+  border: 1px solid;
+  text-align: center;
+}
+td input[type="button"] {
+  width: 100%;
+  height: 33px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  background: WHITE;
+  cursor: pointer;
+}
+.rupees {
+  width: 25%;
+  margin: 0 auto;
+}
+h3.total {
+  font-size: 20px;
+  border: 1px solid;
+  display: inline-block;
+  width: 31.33%;
+  padding: 4px;
+  height: 46px;
+  background: white;
+}
+.btn {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 276px;
+}
+.btn input[type="button"] {
+  width: 100%;
+  height: 40px;
+  font-size: 19px;
+  font-weight: bold;
+  background: white;
+  cursor: pointer;
+}
