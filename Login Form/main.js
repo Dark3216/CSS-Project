@@ -1,4 +1,3 @@
-
 const pass_field = document.querySelector(".pass-key");
 const showBtn = document.querySelector(".show");
 showBtn.addEventListener("click", function () {
@@ -12,5 +11,3 @@ showBtn.addEventListener("click", function () {
     showBtn.style.color = "#222";
   }
 });
-
-
